@@ -8,6 +8,9 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import br.com.alura.maven.Produto;
+import br.com.caelum.stella.tinytype.CPF;
 @WebServlet(urlPatterns = {"/contato"})
 public class Contato extends HttpServlet{
 	@Override
